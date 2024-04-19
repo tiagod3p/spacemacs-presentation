@@ -1,0 +1,69 @@
+#+title: CODE EDITOR ALTERNATIVES
+#+title: A PRACTICAL OVERVIEW WITH SPACEMACS
+
+ [[./try_emacs.jpg]]
+
+* Goals of this presentation
+
+1. Why did I chose spacemacs?
+2. How I build Clojure code with it?
+3. Prove the most important sentence in the code editors world:
+   - *Emacs >>>>>> Vim*
+   - In fact, the best editor is a mix of Emacs and Vim
+     - *This is SPACEMACS*
+
+* Why Spacemacs?
+
+[[./meme.png]]
+
+- *Great Clojure integration*
+  - Easy to integrate and setup a REPL
+  - Many clojurists use emacs and variations
+  - It was developed in ELISP, a dialect of lisp as clojure also is.
+- *Mnemonics keybindings*
+  - All commands make sense and it's easy to learn a new shortcut ⌨️
+- *Vim keybindings*
+  - The same commands you use on Vim, work on Spacemacs
+- *Install it and start!*
+  - You will spend more time on your code and less on your coding environment 💻.
+
+* Great Clojure integration
+
+It's easy to setup and start a clojure project. I'll show it in this presentation.
+
+[[./survey.png]]
+
+* Mnemonics keybindings
+
+All key bindings are mnemonic and are organized under the *<Leader>* =SPC= key
+
+[[./meme3.jpg]]
+
+- /projects/ =SPC p=
+  + /project list/ =SPC p l=
+  + /project find/ =SPC p f=
+- /search/ =SPC s=
+- /help/ =SPC h=
+
+ * *Don't try to memorize key bindings,*
+   *but the commands!*
+   *You can always use =SPC SPC= and discover the command you need.*
+
+* Vim keybindings
+
+You can run many commands using =:=, just like in vim
+
+Example:
+=SPC f s= | =:w=
+
+* Install it and start!
+
+- *Setup*
+  - Emacs dot file!
+- *Open a clojure file and start coding!*
+
+* Finally
+
+Thank you everyone!
+
+[[./meme2.jpg]]
